@@ -1,0 +1,25 @@
+1. STORE = Mass 600kg(M)
+   STORE= Acceleration 2m/s2(A)
+   STORE = Resultan Gaya (N)
+   Calculate = N = M * A
+   SET = 600 * 2 (M * A)
+   Display = 1200 N
+
+2. Tahun Kabisat
+   STORE = tahun (Variabel)
+   If tahun (%) 100 equal 0 AND (%) 400 equal 0 it's Mean Kabisat
+   if tahun (%) 100 not equal 0 AND (%) 4 equal 0 it's Mean Kabisat
+   else If
+        DO Not Kabisat
+
+3. STORE = 0
+   WHILE < 20
+   ADD   by 1
+   SET = 20 "Start wash"
+   Display "Start to Washing"
+
+4. KUKU PANJANG
+    STORE = 40 murid
+   If Murid kuku Panjang
+        DO Punishment
+   else if not DO reward AND Continue Checking = 40
