@@ -9,7 +9,7 @@
    STORE = tahun (Variabel)
    If tahun (%) 100 equal 0 AND (%) 400 equal 0 it's Mean Kabisat
    if tahun (%) 100 not equal 0 AND (%) 4 equal 0 it's Mean Kabisat
-   else If
+   else 
         DO Not Kabisat
 
 3. STORE = 0
