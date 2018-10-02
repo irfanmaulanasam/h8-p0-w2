@@ -57,6 +57,9 @@ ALGORITMA
 
  1. simpan "kuku panjang" tanpa nilai berapapun
  2. simpan "murid" dengan nilai kurang dari 40
- 3. periksa "murid" dimulai dari nilai 1, apabila ditemukan "kuku panjang" maka yang harus dilakukan adalah `Punishment`
- ,apabila tidak ditemukan "kuku panjang" maka yang harus dilakukan adalah `reward`
+ 3. periksa "murid" dimulai dari nilai 1 sampai dengan 40,
+    3.a apabila ditemukan "kuku panjang"
+    maka yang harus dilakukan adalah `Punishment`
+    3.b apabila tidak ditemukan "kuku panjang" 
+    maka yang harus dilakukan adalah `reward`
  4. ulangi tahap 3. sampai "murid" mencapai nilai 40 
