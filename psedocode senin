@@ -1,0 +1,62 @@
+PSEUDOCODE
+
+1. Newton Law
+   STORE  "Mass" with value 600
+   STORE "Acceleration" with value 2
+   STORE "Newton" without any value
+   Calculate  "Mass times Acceleration"
+   SET "Newton"
+   Display `1200`
+
+2. Tahun Kabisat
+   STORE "tahun" with any value
+   if "tahun" modulo 4 equal 0  AND "tahun" modulo 100 not equal 0
+      else If "tahun" modulo 4 equal 0 AND "tahun" modulo 100 equal 0 AND "tahun" modulo 400 equal 0
+    display `Kabisat`
+   else
+        DO `Not Kabisat`
+
+3. Mencuci Pakaian
+   STORE "pakaian" with value 0
+    WHILE "pakaian" < 20
+      ADD   by 1
+   SET "pakaian" equal 20
+   Display `mulai mencuci dengan mesin`
+
+
+4. Kuku Panjang
+   STORE "kuku panjang" without any value
+   STORE "murid" with value < 40
+   WHILE "murid" < 40
+   If "kuku Panjang"
+    DO `Punishment`
+   else
+    DO `reward`
+
+ALGORITMA
+
+~tahun Kabisat~
+
+  1. simpan "tahun" dengan nilai berapapun
+  2. hitung "tahun" dibagi dengan modulo 4, apabila nilainya 0  dan "tahun" dibagi lagi dengan modulo 100
+  hasil yang keluar adalah 0 maka "tahun" merupakan `tahun kabisat`
+  3. hitung "tahun" dibagi dengan modulo 4, apabila nilainya 0  dan "tahun" dibagi dengan modulo 100
+  dan apabila hasil yang keluar tidak sama dengan 0, akan tetapi jika "tahun" dibagi dengan modulo 400
+  maka "tahun" merupakan `tahun kabisat`
+  4. jika langkah 2 dan 3 hasilnya tidak sama dengan 0, maka "tahun" tidak termasuk dalam tahun kabisat atau
+  dengan kata lain bukan tahun Kabisat
+
+~Mencuci Pakaian~
+
+  1. simpan "pakaian" dengan nilai 0
+  2. hitung "pakaian" dimulai dari nilai 0 dengan menambahkan 1 hingga mencapai nilai 20
+  3. atur "pakaian" apabila sudah mencapai nilai 20 maka
+  tampilkan `mulai mencuci pakaian dengan mesin`
+
+~kuku panjang~
+
+ 1. simpan "kuku panjang" tanpa nilai berapapun
+ 2. simpan "murid" dengan nilai kurang dari 40
+ 3. periksa "murid" dimulai dari nilai 1, apabila ditemukan "kuku panjang" maka yang harus dilakukan adalah `Punishment`
+ ,apabila tidak ditemukan "kuku panjang" maka yang harus dilakukan adalah `reward`
+ 4. ulangi tahap 3. sampai "murid" mencapai nilai 40 
